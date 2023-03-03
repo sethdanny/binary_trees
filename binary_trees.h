@@ -73,6 +73,8 @@ int bs_tree_preorder(bst_t *tree, int n);
 bst_t *bst_search(const bst_t *tree, int value);
 bst_t *bst_remove(bst_t *root, int value);
 bst_t *bst_min_val(bst_t *root);
-
+int binary_tree_is_avl(const binary_tree_t *tree);
+int btia_helper(const binary_tree_t *tree, int min, int max);
+size_t binary_tree_height(const binary_tree_t *tree);
 
 #endif
