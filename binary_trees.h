@@ -71,6 +71,8 @@ int isQueueEmpty(int *front, int *rear);
 bst_t *array_to_bst(int *array, size_t size);
 int bs_tree_preorder(bst_t *tree, int n);
 bst_t *bst_search(const bst_t *tree, int value);
+bst_t *bst_remove(bst_t *root, int value);
+bst_t *bst_min_val(bst_t *root);
 
 
 #endif
